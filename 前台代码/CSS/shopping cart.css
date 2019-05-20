@@ -1,0 +1,189 @@
+body{
+    padding: 0 0.22rem;
+    background-color: #fbfeff;
+}
+header{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 0.22rem;
+    margin-bottom: 0.66rem;
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    background-color: #fbfeff ;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    z-index: 999;
+}
+header >a {
+    text-decoration: none;
+    color: #4ebbfe;
+}
+section .shoppinglistItem{
+    height: 2.65rem;
+    width: 100%;
+    border-bottom: 0.01rem solid #eef1f2;
+}
+
+section{
+    margin-top:1.22rem;
+}
+section .image{
+    width:1.74rem;
+    height:1.74rem ;
+    float: left;
+    margin-right: 0.24rem;
+    background-color: #ffffff ;
+    box-shadow:0  0.001rem  0.021rem  0;
+    rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    position: relative;
+}
+section .imageHot{
+    width:1.74rem;
+    height:1.74rem ;
+    float: left;
+    margin-right: 0.24rem;
+    background-color: #ffffff ;
+    box-shadow:0  0.001rem  0.021rem  0;
+    rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    position: relative;
+}
+.image{
+    display: block;
+    margin-left: 0.44rem;
+    position: relative;
+}
+section .image>img{
+    width:1.19rem;
+    height:1.19rem ;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.imageHot{
+    display: block;
+    margin-left: 0.44rem;
+    position: relative;
+}
+section .imageHot>img{
+    width:1.19rem;
+    height:1.19rem ;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.imageHot:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -0.6rem;
+    top: 0.5rem;
+    background-image: url("../../前台/img/QQ图片20190518151749.png");
+    background-size: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.image:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -0.5rem;
+    top: 0.5rem;
+    background-image: url("../../前台/img/QQ图片20190518151758.png");
+    background-size: 0.24rem;
+    width: 0.24rem;
+    height: 0.24rem;
+    /*background-color: red;*/
+}
+
+div.listContent{
+    margin-top: 0.48rem;
+}
+.listContent>span.total{
+    height: 0.34rem;
+    width: 1.8rem;
+    float: right;
+    color: #41b2fc;
+    font-size: 0.26rem;
+    text-align: center;
+}
+.listContent>span.total >a{
+    height: 0.34rem;
+    width: 0.34rem;
+    border-radius: 50%;
+
+
+}
+.listContent>span>a>img{
+    height: 0.34rem;
+    width: 0.34rem;
+    border-radius: 50%;
+}
+div.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 1.10rem;
+    width: 100%;
+    background-color: #f1faff;
+
+}
+div.bottoml{
+    margin-left: 0.44rem;
+    float:left;
+}
+div.bottoml>span{
+    color: #3bacfe;
+    opacity: 0.6;
+    font-size: 0.24rem;
+}
+div.bottoml>span:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0.22rem;
+    bottom: 0.8rem;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  0;
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+div.bottoml>div>span{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+div.bottoml>div>span:before{
+    content: '';
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    position: absolute;
+    left: 0.22rem;
+    bottom: 0.42rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+
+
+div.bottomr img {
+    width: 3.80rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    float: right;
+    margin-top: 0.2rem;
+    margin-right: 0.22rem;
+}
+
+
