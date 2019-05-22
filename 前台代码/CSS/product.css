@@ -9,6 +9,7 @@ header{
     background-color: #fbfeff ;
     font-size: 0.38rem;
     color: #4ebbfe;
+    position: fixed;
 }
 header >a {
     text-decoration: none;
@@ -17,7 +18,12 @@ header >a {
 .image{
     width: 7.5rem;
     height: 8.76rem;
-    background-color: #4ebbfe;
+}
+.image>img  {
+    width: 3.0rem;
+    height: 3.6rem;
+    margin-left: 30%;
+    margin-top: 40%;
 }
 .productInformation{
     padding: 0 0.22rem;
@@ -132,6 +138,10 @@ h1.tittle>a>i:nth-child(2){
     flex: none;
 }
 .comment .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+}
+.comment .avatar img{
     width: 0.86rem;
     height: 0.86rem;
 }
