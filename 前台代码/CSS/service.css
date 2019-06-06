@@ -83,6 +83,11 @@ section .image>img{
     left: 0.2rem;
     top: 0.26rem;
 }
+ul.list >a.jump{
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
 .shoppinglistItem{
     height: 1.74rem;
 }
@@ -91,20 +96,33 @@ section .image>img{
     position: relative;
     margin-left: 0.26rem;
 }
+.
+
 .listContent span{
     width: 100%;
     display: block;
+}
+span.waitingorder{
+    float: right;
+    font-size: 0.25rem;
+    color: #43c93e;
+}
+span.type{
+    color: #8a8c8d;
+}
+.time{
+    color: #41b2fc;
+    font-size: 0.27rem;
 }
 .name{
     width: 2.15rem;
     height: 0.28rem;
     font-family: PingFangSC-Semibold;
     font-size: 0.3rem;
-    font-weight: normal;
+    font-weight: bolder;
     font-stretch: normal;
     letter-spacing: 0.01rem;
     color: #000000;
-    opacity: 0.6;
 }
 .type{
     width: 1.56rem;
@@ -119,23 +137,9 @@ section .image>img{
     position: relative;
 }
 
-.info{
-    width: 2.49rem;
-    height: 0.22rem;
-    padding-bottom:0.3rem;
-    font-family: PingFangSC-Semibold;
-    font-size: 0.22rem;
-    font-weight: normal;
-    font-stretch: normal;
-    letter-spacing: 0.1rem;
-    color: #000000;
-    opacity: 0.3;
-    position: relative;
-}
-
-.price{
-    bottom: 0rem;
-    left: 2rem;
+span.price{
+    display: block;
+    margin-top: 0.65rem;
     height: 0.2rem;
     font-family: PingFangSC-Semibold;
     font-size: 0.26rem;
@@ -147,10 +151,10 @@ section .image>img{
 div.pay{
     width: 100%;
     height: 1.2rem;
+    margin-top: 0.68rem;
 }
 span.pay{
     height: 0.24rem;
-    margin-top: 0.42rem;
     font-family: PingFangSC-Semibold;
     font-size: 0.24rem;
     font-weight: normal;
@@ -158,12 +162,60 @@ span.pay{
     letter-spacing: 0.01rem;
     color: #fbb548;
     float: right;
+    margin-bottom: 0.22rem;
+}
+span.info{
+    text-align: right;
+    font-size: 0.22rem;
+    width: 100%;
+    float: right;
+    color: #8a8c8d;
 }
 .payList{
     float: right;
 }
 .payList>span>img{
     border-radius: 0.3rem;
+}
+div.customerService1{
+     width: 1.66rem;
+     height: 0.6rem;
+     background-color: #e7f6ff;
+     border-radius: 0.3rem;
+     text-align: center;
+     line-height: 0.6rem;
+     font-size: 0.27rem;
+     letter-spacing: 1px;
+     color: #3bacfe;
+     bottom: 0.3rem;
+     right: 0.4rem;
+     float: right;
+    margin-left: 0.22rem;
+ }
+div.customerService{
+    width: 2.0rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    height: 0.6rem;
+    background-color: #32d797;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.27rem;
+    letter-spacing: 1px;
+    color: #32d797;
+    bottom: 0.3rem;
+    right: 0.4rem;
+    float: right;
+    margin-left: 0.22rem;
+}
+div.customerService>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+div.customerService1>a{
+    text-decoration: none;
+    color: #3bacfe;
 }
 footer{
     height: 0.98rem;
