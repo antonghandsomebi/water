@@ -9,9 +9,12 @@
 </head>
 <link rel="stylesheet" href="../CSS/rem.css">
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1194369_cafm2zel56r.css">
+<link rel="stylesheet" href="../CSS/swiper.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <body>
+
     <header>安彤</header>
     <div class="search">
         <span>
@@ -20,8 +23,18 @@
         </span>
         <a href="">&nbsp&nbsp&nbsp搜索您需要的商品 服务</a>
     </div>
-    <div class="banner">
-        <div><img src="../../前台/img/banner.png" alt=""></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../../前台/img/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="../../前台/img/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="../../前台/img/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="../../前台/img/banner.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
     <ul class="category">
         <li><a href="./list.html">
@@ -68,5 +81,14 @@
         <a href="./order.html"><img src="../../前台/img/order.png" alt="">订单</a>
         <a href=""><img src="../../前台/img/personal.png" alt="">我的</a>
     </footer>
+    <script src="../JS/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper ('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    </script>
 </body>
 </html>

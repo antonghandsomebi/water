@@ -67,17 +67,17 @@ header{
     line-height: 0.6rem;
     color: #c8d9e6;
 }
-.banner{
+.swiper-container{
     width: 100%;
     height: 3rem;
     background: #414cfe;
 }
-.banner div{
+.swiper-wrapper div{
     width: 100%;
     height: 3rem;
     background: #414cfe;
 }
-.banner div img{
+.swiper-wrapper div img{
     width: 100%;
     height: 3rem;
 }
